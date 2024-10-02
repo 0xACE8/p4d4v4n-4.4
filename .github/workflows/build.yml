@@ -49,11 +49,11 @@ on:
         - 'XY-C1'
         - 'ZTE-E8820S'
         - 'WE410443-TC'
-        default: 'K2P'
+        default: 'MI-R3G'
       release:
         type: boolean
         description: 'upload to release'
-        default: 'true'
+        default: 'false'
 jobs:
   build:
     name: ${{ inputs.target }}
