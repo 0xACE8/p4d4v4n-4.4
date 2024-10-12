@@ -22,4 +22,7 @@ sed -i 's/CONFIG_FIRMWARE_INCLUDE_TROJAN=y/CONFIG_FIRMWARE_INCLUDE_TROJAN=n/g' t
 sed -i 's/CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n/CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y/g' trunk/configs/templates/MI-R3G.config
 sed -i 's/CONFIG_FIRMWARE_INCLUDE_OC=n/CONFIG_FIRMWARE_INCLUDE_OC=y/g' trunk/configs/templates/MI-R3G.config
 
+# network config
+sed -i 's/192.168.2/192.168.177/g' trunk/user/shared/defaults.h
+
 exit 0
